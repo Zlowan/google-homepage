@@ -20,6 +20,14 @@ body {
     border-radius: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #middle {
     margin-top: 150px;
 }
@@ -46,3 +54,29 @@ img {
     border-radius: 20px;
     border: 1px solid rgba(197, 193, 193, 0.933);
 }  
+
+#searchbar:hover {
+    box-shadow: 0 0 5px 2px rgb(230, 227, 227);
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: rgb(226, 225, 225);
+}
+
+#links {
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
